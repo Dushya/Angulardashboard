@@ -1,0 +1,7 @@
+com\hackfse\feedback\model\RegisteredNotParticipatedMapper.class
+com\hackfse\feedback\spring\config\AppConfig.class
+com\hackfse\feedback\spring\dao\RegisteredNotParticipatedDAO.class
+com\hackfse\feedback\model\RegisteredNotParticipated.class
+com\hackfse\feedback\spring\dao\RegisteredNotParticipatedDAOImpl.class
+com\hackfse\feedback\Main.class
+com\hackfse\feedback\service\JavaEmail.class

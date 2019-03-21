@@ -1,0 +1,49 @@
+
+<div [hidden]="submitted" style="width: 700px;">
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <div class="radio">
+            <label>
+                <input type="radio" name="feedback" value="Unexpected Personal Commitment" [(ngModel)]="regnotpart.feedback">
+                Unexpected Personal Commitment
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="feedback" value="Unexpected official work" [(ngModel)]="regnotpart.feedback">
+                Unexpected official work
+            </label>
+        </div>
+        <div class="radio">
+          <label>
+              <input type="radio" name="feedback" value="Did not receive further information about event" [(ngModel)]="regnotpart.feedback">
+              Did not receive further information about event
+          </label>
+      </div>
+      <div class="radio">
+        <label>
+            <input type="radio" name="feedback" value="Event was not what I expected" [(ngModel)]="regnotpart.feedback">
+            Event was not what I expected
+        </label>
+    </div>
+    <div class="radio">
+      <label>
+          <input type="radio" name="feedback" value="Incorrectly registered" [(ngModel)]="regnotpart.feedback">
+          Incorrectly registered
+      </label>
+  </div>
+  <div class="radio">
+    <label>
+        <input type="radio" name="feedback" value="Do not wish to disclose" [(ngModel)]="regnotpart.feedback">
+        Do not wish to disclose
+    </label>
+</div>
+    </div>
+
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
+</div>
+
+<div [hidden]="!submitted">
+  <h4>Your response has been receorded. Thank you !!</h4>
+</div>

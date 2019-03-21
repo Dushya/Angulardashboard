@@ -1,0 +1,5 @@
+com\hackfse\feedback\model\RegisterdNotParticipated.class
+com\hackfse\feedback\mysql\SpringRestMySqlApplication.class
+com\hackfse\feedback\repo\RegisterdNotParticipatedRepository.class
+com\hackfse\feedback\controller\FeedbackController.class
+com\hackfse\feedback\model\RegisteredNotParticipatedID.class
